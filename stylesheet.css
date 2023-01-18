@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-image: url("img/stars.jpg");
+  height: 100vh;
+  width: 98vw;
+}
+
+h1 {
+  display: inline;
+  font-size: 30px;
+  color: gold;
+  text-transform: uppercase;
+}
+
+nav {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  color: whitesmoke;
+  background-color: #000;
+  border-bottom: .5px solid white;
+}
+
+.navList {
+  float: right;
+  display: flex;
+}
+
+.navItems {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+}
+
+li a img {
+  color: white;
+}
+
+li a {
+  color: aliceblue;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+li a:hover,
+li a:focus {
+  color: #333;
+  background-color: aliceblue;
+}
+
+.flex-content {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  margin-top: 20px;
+  color: aliceblue;
+  display: block;
+  text-align: center;
+}
+
+.flex-img {
+  display: inline;
+  height: 40vh;
+  border: 3px solid whitesmoke;
+  border-radius: 0.5rem;
+  margin-bottom: 20px;
+
+  align-self: center;
+}
+
+.label-img-crackers {
+  color: whitesmoke;
+  margin-left: 30px;
+  max-width: 380px;
+  min-width: 380px;
+  line-height: 2rem;
+}
+
+.footer {
+  border-top: .5px solid whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-btn {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border-radius: 0.25rem;
+  height: 40px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  border: 1px solid whitesmoke;
+}
+
+.footer-btn:hover {
+  color: #000;
+  background-color: whitesmoke;
+}
+
+.footer-btn-link {
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-btn-link:visited {
+  color: rgb(255, 255, 255);
+}
+
+.footer-btn-link:hover{
+  color: #000;
+}
